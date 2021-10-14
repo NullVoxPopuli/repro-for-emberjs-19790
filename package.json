@@ -10,6 +10,9 @@
     "doc": "doc",
     "test": "tests"
   },
+  "browserslist": [
+    "last 1 firefox versions"
+  ],
   "scripts": {
     "build": "ember build --environment=production",
     "lint": "npm-run-all --aggregate-output --continue-on-error --parallel \"lint:!(fix)\"",
@@ -66,5 +69,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "browserslist": "^4.17.4"
   }
 }
