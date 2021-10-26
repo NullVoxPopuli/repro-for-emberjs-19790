@@ -18,7 +18,7 @@ module.exports = function (api) {
         {
           modules: 'auto',
           targets: {
-            // esmodules: true,
+            esmodules: false,
             browsers: ['last 1 firefox versions'],
           },
         },
@@ -26,7 +26,7 @@ module.exports = function (api) {
     ],
     plugins: [
       // [require.resolve('@babel/plugin-proposal-decorators'), { legacy: true }],
-      ...buildEmberPlugins(__dirname),
+      // ...buildEmberPlugins(__dirname),
     ],
   };
 };
