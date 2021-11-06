@@ -1,6 +1,7 @@
 'use strict';
 
 const browsers = ['last 1 Chrome versions', 'last 1 Firefox versions'];
+// const browsers = ['> 0.6%', 'not IE 11', 'not op_mini all', 'not dead'];
 
 // Ember's browser support policy is changing, and IE11 support will end in
 // v4.0 onwards.
