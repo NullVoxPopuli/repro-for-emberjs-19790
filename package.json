@@ -71,6 +71,7 @@
     "edition": "octane"
   },
   "dependencies": {
-    "browserslist": "^4.17.4"
+    "browserslist": "^4.17.4",
+    "tracked-built-ins": "^2.0.0"
   }
 }

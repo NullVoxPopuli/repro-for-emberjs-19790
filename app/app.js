@@ -2,7 +2,9 @@ import Application from '@ember/application';
 import Resolver from 'ember-resolver';
 import loadInitializers from 'ember-load-initializers';
 import config from 'my-app/config/environment';
+
 import './input';
+import 'tracked-built-ins';
 
 export default class App extends Application {
   modulePrefix = config.modulePrefix;
